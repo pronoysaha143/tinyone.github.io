@@ -284,6 +284,10 @@ a:focus {
     font-size: 16px;
 }
 
+.footer .part ul li a:hover {
+    text-decoration: underline;
+}
+
 /*===========================
        Footer Sec End
 =============================*/
