@@ -1,0 +1,320 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    border: 0;
+}
+
+body {
+    line-height: normal;
+    font-family: font-family: 'PT Sans', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+/*==============================
+        common css end
+================================*/
+
+.navbar-light .navbar-toggler {
+    background: #b9b6b6;
+
+}
+
+.navbar-toggler {
+    color: #83e510;
+}
+
+
+.navbar {
+    background: #fcdb00;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 30px 0;
+    padding-left: 1rem;
+    padding-right: 4rem;
+    font-size: 14px;
+    font-weight: 800;
+    color: #010101;
+    text-transform: uppercase;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    transition: all linear 0.3s;
+}
+
+/*===========================
+        Nav Section End
+=============================*/
+
+#banner_sec {
+    background: #fcdb00;
+    padding-top: 70px;
+    padding-bottom: 180px;
+}
+
+
+#banner_sec .left-text {
+    padding-top: 60px;
+}
+
+#banner_sec .left-text h2 {
+
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#banner_sec .left-text h5 {
+
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+#banner_sec .left-text p {
+
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 25px;
+}
+
+#banner_sec .right-ipad {
+    padding-left: 155px;
+}
+
+#banner_sec .icons {
+
+    font-size: 45px;
+    padding-top: 26px;
+
+}
+
+#banner_sec .icons .fa-android {
+    padding: 0px 26px;
+}
+
+/*===========================
+       Banner Sec End
+=============================*/
+
+#service_sec {
+    background: #fff;
+    padding-top: 80px;
+    padding-bottom: 180px;
+}
+
+
+#service_sec .heading {
+
+    text-align: center;
+    padding-top: 100px;
+}
+
+#service_sec .heading h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+
+}
+
+#service_sec .heading p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+
+}
+
+
+.wrapper .logo {
+    float: left;
+    width: 15%;
+}
+
+.wrapper .logo span i {
+
+    font-size: 40px;
+
+}
+
+.wrapper .con-text {
+    float: left;
+    width: 85%;
+    padding-left: 15px;
+}
+
+.wrapper .con-text h4 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #010101;
+}
+
+.wrapper .con-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+}
+
+.part-1 {
+    padding-top: 60px;
+}
+
+.part-2 {
+    margin-top: 60px;
+}
+
+/*===========================
+       service Sec End
+=============================*/
+
+#contact_sec {
+
+    background: #000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#contact_sec .header {
+    text-align: center;
+}
+
+#contact_sec .header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fcdb00;
+}
+
+
+#contact_sec .header p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #898989;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#contact_sec .form {
+    text-align: center;
+}
+
+#contact_sec .form input {
+
+    height: 50px;
+    width: 550px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: none;
+    padding: 0 25px;
+}
+
+#contact_sec .form button {
+
+    height: 50px;
+    width: 130px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    margin-left: 20px;
+    cursor: pointer;
+    background: #fcdb00;
+    transition: all linear 0.3s;
+}
+
+#contact_sec .form button:hover {
+    background: #a09d9d;
+    color: #fff;
+}
+
+#contact_sec .icons {
+    text-align: center;
+    padding-top: 80px;
+}
+
+#contact_sec .fab {
+    font-size: 40px;
+    color: #ffd907;
+    padding: 0px 20px;
+    transition: all linear .3s;
+}
+
+#contact_sec .fab:hover {
+
+    color: #a09d9d;
+}
+
+/*===========================
+       Contact Sec End
+=============================*/
+#footer_sec {
+    background: #000;
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer {
+    color: #fff;
+    padding-top: 50px;
+}
+
+.footer p {
+    font-size: 16px;
+}
+
+.footer .part ul li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+/*===========================
+       Footer Sec End
+=============================*/
+
+.top_to_button {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    background: #fcdb00 none repeat scroll 0 0;
+    color: #000;
+    text-align: center;
+    line-height: 36px;
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+    right: 60px;
+    bottom: 50px;
+    z-index: 99999999;
+    transition: all .3s ease
+}
+
+.scrollup i {
+    transition: all .3s ease
+}
+
+.top_to_button:hover {
+    box-shadow: 0px 15px 15px 0 rgba(0, 0, 0, .2);
+    transform: translateY(-10px);
+}
+
+/*===========================
+       scrollup-top End
+=============================*/
